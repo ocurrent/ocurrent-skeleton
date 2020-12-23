@@ -7,7 +7,6 @@
    current_git
    current_web
    cmdliner
-   fmt.tty
-   logs.fmt
    lwt
-   lwt.unix))
+   lwt.unix
+   prometheus-app.unix))
