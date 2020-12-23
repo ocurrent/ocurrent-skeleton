@@ -13,6 +13,7 @@
  (synopsis "An OCurrent pipeline")
  (description "A longer description")
  (depends
+  (prometheus-app (>= 1.0))
   (current (>= 0.3))
   current_web
   current_git

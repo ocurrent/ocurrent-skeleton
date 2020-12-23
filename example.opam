@@ -8,6 +8,7 @@ homepage: "https://github.com/ocurrent/ocurrent-skeleton"
 bug-reports: "https://github.com/ocurrent/ocurrent-skeleton/issues"
 depends: [
   "dune" {>= "1.11"}
+  "prometheus-app" {>= "1.0"}
   "current" {>= "0.3"}
   "current_web"
   "current_git"
