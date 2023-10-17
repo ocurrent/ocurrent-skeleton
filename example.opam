@@ -9,12 +9,12 @@ bug-reports: "https://github.com/ocurrent/ocurrent-skeleton/issues"
 depends: [
   "dune" {>= "1.11"}
   "prometheus-app" {>= "1.0"}
-  "current" {>= "0.3"}
+  "current" {>= "0.6"}
   "current_web"
   "current_git"
   "fmt"
   "lwt"
-  "cmdliner"
+  "cmdliner" {>= "1.2.0"}
   "ocaml" {>= "4.08.0"}
 ]
 build: [
